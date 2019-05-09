@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "1444ddeb-5f33-4408-aec8-f5435c2572ff",
+            "Value": {
+                "id": "8e1a195f-8104-4f2e-80bf-51f3dfc663f4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_virtual_button\/s_virtual_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bdf9b03-7342-4a0e-bf6d-ac7152c00489",
             "Value": {
                 "id": "2c445020-42e2-4183-9211-209d43f09850",
@@ -248,6 +267,25 @@
             }
         },
         {
+            "Key": "673b3829-127f-4d71-a5cc-41c5a8ef105f",
+            "Value": {
+                "id": "f5195466-d205-4b53-9e49-4babf1349e38",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_virtual_arrow\/s_virtual_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b2da5fb-3355-4549-bc5f-d3bada715bed",
             "Value": {
                 "id": "6f5efa7f-10b6-47b0-a4b9-408ad1f18ad8",
@@ -302,6 +340,25 @@
                 ],
                 "resourcePath": "views\/78aa05ca-dd16-4720-96a8-4c1d12f59463.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "812b03fa-7133-4dc7-8c82-34c3dde054e5",
+            "Value": {
+                "id": "8b9c009b-475d-4aa6-8c09-c0a43a68cbf5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_virtual_arrow\/o_virtual_arrow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -400,6 +457,25 @@
             }
         },
         {
+            "Key": "ae4bfd4a-d5c3-4c59-877a-b0c28e652692",
+            "Value": {
+                "id": "98260596-3c13-42e6-87cf-bac0827d04b3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_virtual_button\/o_virtual_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b1930f14-b0db-4359-8c30-5b8a44dd56ea",
             "Value": {
                 "id": "539a33c6-8b89-40ad-83de-c19e55f47dce",
@@ -416,6 +492,25 @@
                 ],
                 "resourcePath": "views\/b1930f14-b0db-4359-8c30-5b8a44dd56ea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b28952f6-64f4-4306-925e-f92d0ee1132b",
+            "Value": {
+                "id": "eb63b55c-18a1-43ce-a927-2f02971080be",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_virtual_arrows\/o_virtual_arrows.yy",
+                "resourceType": "GMObject"
             }
         },
         {
