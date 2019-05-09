@@ -2,11 +2,17 @@ var my_speed = 3;
 var xx = 0;
 var yy = 0;
 
-var up = keyboard_check(vk_up);
-var down = keyboard_check(vk_down);
-var left = keyboard_check(vk_left);
-var right = keyboard_check(vk_right);
-var fire = keyboard_check_pressed(vk_space);
+var up = keyboard_check(vk_up) 
+			or gamepad_button_check(0, gp_padu);
+var down = keyboard_check(vk_down) 
+			or gamepad_button_check(0, gp_padd);
+var left = keyboard_check(vk_left) 
+			or gamepad_button_check(0, gp_padl);
+var right = keyboard_check(vk_right) 
+			or gamepad_button_check(0, gp_padr);
+var fire = keyboard_check_pressed(vk_space) 
+			or gamepad_button_check_pressed(0, gp_shoulderr) 
+			or gamepad_button_check_pressed(0, gp_shoulderrb);
 
 // Movement
 if (right) {
