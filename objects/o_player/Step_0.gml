@@ -2,19 +2,40 @@ var my_speed = 3;
 var xx = 0;
 var yy = 0;
 
-var up = keyboard_check(vk_up) 
-			or gamepad_button_check(0, gp_padu);
-var down = keyboard_check(vk_down) 
-			or gamepad_button_check(0, gp_padd);
-var left = keyboard_check(vk_left) 
-			or gamepad_button_check(0, gp_padl);
-var right = keyboard_check(vk_right) 
-			or gamepad_button_check(0, gp_padr);
-var fire = keyboard_check_pressed(vk_space) 
-			or gamepad_button_check_pressed(0, gp_shoulderr) 
-			or gamepad_button_check_pressed(0, gp_shoulderrb);
+// check all possible game pads
+// 1) If using an XBOX controller on pc/mac, then use gamepad 0.
+// 2) If using the gamedevice on iPhone, then use gamepad 4.
+var gp_up = 0;
+var gp_down = 0;
+var gp_left = 0;
+var gp_right = 0;
+var gp_fire = 0;
+var i;
+for (i = 0; i < 12; i++) {
+	if gamepad_button_check(i, gp_padu) {
+		gp_up = 1;
+	}
+	if gamepad_button_check(i, gp_padd) {
+		gp_down = 1;
+	}
+	if gamepad_button_check(i, gp_padl) {
+		gp_left = 1;
+	}
+	if gamepad_button_check(i, gp_padr) {
+		gp_right = 1;
+	}
+	if gamepad_button_check_pressed(i, gp_shoulderr)
+		or gamepad_button_check_pressed(i, gp_shoulderrb) {
+		gp_fire = 1;
+	}
+}
+
+var up = keyboard_check(vk_up) or gp_up;
+var down = keyboard_check(vk_down)  or gp_down;
+var left = keyboard_check(vk_left) or gp_left;
+var right = keyboard_check(vk_right) or gp_right;
+var fire = keyboard_check_pressed(vk_space) or gp_fire;
 			
-	
 // virtual keys
 if (mouse_check_button(mb_left) and (o_virtual_arrows.show)) {
 	
